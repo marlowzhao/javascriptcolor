@@ -7,16 +7,25 @@
   <body>
 
     <div class="container">
-      <h1 class="title">color lighten/darken</h1>
+      <h1 class="title">
+       color lighten/darken</h1>
     </div>
     <label for="hex">Color Hex</label>
   <input type="text" name="hex" id="hexInput" placeholder="#000000"/>
+
+  <div class="toggle">
+    <p>lighten</p>
+    <div id="toggleBtn">
+      <div class="inner-circle"></div>
+    </div>
+    <p>darken</p>
+  </div>
 
   <label for="slider" id="sliderText">0%</label>
   <input type="range" min="0" max="100" value="0" class="slider" id="slider" name="slider" />
   <p>Input Color</p>
   <div id="inputColor" class="box"></div>
-  <p>Altered Color</p>
+    <p id="alteredColorText">Altered Color</p>
   <div id="alteredColor" class="box"></div>
   </body>
 

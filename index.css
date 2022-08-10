@@ -19,6 +19,32 @@ body{
   color: bisque
 }
 
+.toggle{
+  display:flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#toggleBtn {
+background: grey;
+width:60px;
+height:30px;
+border-radius: 25px;
+padding: 5px;
+}
+
+.inner-circle {
+ width: 30px;
+ height: 30px;
+ background: whitesmoke;
+ border-radius: 50%;
+}
+// horizontally moves by 30px
+.toggle-btn.toggled > .inner-circle {
+  transform: translateX(30px);
+  background-color: black;
+}
+
 label {
   display:block;
   font-size: 20px;
