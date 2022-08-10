@@ -1,0 +1,42 @@
+* {
+  margin:0;
+  padding: 0;
+
+}
+
+body{
+  font-family: 'Alumni Sans Inline One', cursive;
+  background-color: rgb(91, 140, 184);
+}
+
+.container{
+  padding: 0 10px;
+}
+
+.title{
+  text-align: center;
+  margin: 25px;
+  color: bisque
+}
+
+label {
+  display:block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+input{
+  margin-bottom: 25px;
+}
+
+input[type="text"]{
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.box{
+  height: 100px;
+  width: 100%;
+  background-color: #c6d5ac;
+  margin-bottom: 20px;
+}
