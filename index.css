@@ -1,13 +1,15 @@
 * {
   margin:0;
   padding: 0;
-
 }
 
 body{
-  font-family: 'Alumni Sans Inline One', cursive;
+  padding: 0 40px;
+  font-family: 'Poppins', sans-serif;
   background-color: rgb(91, 140, 184);
+  font-size: 35px;
 }
+
 
 .container{
   padding: 0 10px;
@@ -39,10 +41,14 @@ padding: 5px;
  background: whitesmoke;
  border-radius: 50%;
 }
-// horizontally moves by 30px
+/* // horizontally moves by 30px */
 .toggle-btn.toggled > .inner-circle {
   transform: translateX(30px);
   background-color: black;
+}
+
+.unselected {
+  opacity: 0.25;
 }
 
 label {

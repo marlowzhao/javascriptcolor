@@ -1,32 +1,31 @@
 <html>
   <head>
-    <link rel="stylesheet" href="index.css" href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap">
+    <link rel="stylesheet" href="index.css" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
   </head>
 
 
   <body>
-
     <div class="container">
       <h1 class="title">
-       color lighten/darken</h1>
+      Color Lighten/Darken</h1>
     </div>
     <label for="hex">Color Hex</label>
-  <input type="text" name="hex" id="hexInput" placeholder="#000000"/>
+    <input type="text" name="hex" id="hexInput" placeholder="#000000"/>
 
-  <div class="toggle">
-    <p>lighten</p>
-    <div id="toggleBtn">
-      <div class="inner-circle"></div>
+    <div class="toggle">
+      <p id="lightenText">lighten</p>
+      <div id="toggleBtn" class="toggle-btn">
+        <div class="inner-circle"></div>
+      </div>
+      <p id="darkenText">darken</p>
     </div>
-    <p>darken</p>
-  </div>
 
-  <label for="slider" id="sliderText">0%</label>
-  <input type="range" min="0" max="100" value="0" class="slider" id="slider" name="slider" />
-  <p>Input Color</p>
-  <div id="inputColor" class="box"></div>
-    <p id="alteredColorText">Altered Color</p>
-  <div id="alteredColor" class="box"></div>
+    <label for="slider" id="sliderText">0%</label>
+    <input type="range" min="0" max="100" value="0" class="slider" id="slider" name="slider" />
+    <p>Input Color</p>
+    <div id="inputColor" class="box"></div>
+      <p id="alteredColorText">Altered Color</p>
+    <div id="alteredColor" class="box"></div>
   </body>
 
   <script src="index.js"></script>
