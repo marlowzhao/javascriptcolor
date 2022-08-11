@@ -46,7 +46,7 @@ padding: 5px;
 /* // horizontally moves by 30px */
 .toggle-btn.toggled > .inner-circle {
   transform: translateX(30px);
-  background-color: black;
+  background-color: #3B2216;
 }
 
 .unselected {
@@ -71,6 +71,6 @@ input[type="text"]{
 .box{
   height: 100px;
   width: 100%;
-  background-color: #c6d5ac;
+  background-color: #75B6BC;
   margin-bottom: 20px;
 }
