@@ -96,5 +96,5 @@ const converterHexToRGB=(hex)=>{
 
      const alteredHex = alterColor(hexInput.value, valueAddition);
      alteredColor.style.backgroundColor = alteredHex;
-     alteredColorText.innerText = `Altered Color ${alteredHex}`
+     alteredColorText.innerText = `Altered Color: ${alteredHex}`
    })

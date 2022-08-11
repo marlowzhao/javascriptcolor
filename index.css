@@ -30,7 +30,7 @@ body{
 }
 
 #toggleBtn {
-background: grey;
+background: #EB755D;
 width:60px;
 height:30px;
 border-radius: 25px;
@@ -40,13 +40,13 @@ padding: 5px;
 .inner-circle {
  width: 30px;
  height: 30px;
- background: whitesmoke;
+ background: #F7E9DC;
  border-radius: 50%;
 }
 /* // horizontally moves by 30px */
 .toggle-btn.toggled > .inner-circle {
   transform: translateX(30px);
-  background-color: #3B2216;
+  background-color:#524C41;
 }
 
 .unselected {
@@ -58,6 +58,14 @@ label {
   font-size: 20px;
   margin-bottom: 5px;
 }
+
+.slider{
+ background-color: #524C41;
+}
+.slider::-moz-range-thumb {
+  cursor: pointer;
+}
+
 input{
   margin-bottom: 25px;
 }
@@ -71,6 +79,6 @@ input[type="text"]{
 .box{
   height: 100px;
   width: 100%;
-  background-color: #75B6BC;
+  background-color: #EB755D;
   margin-bottom: 20px;
 }
