@@ -1,13 +1,15 @@
 * {
   margin:0;
   padding: 0;
+  color: #524C41;
 }
+
 
 body{
   padding: 0 40px;
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(91, 140, 184);
-  font-size: 35px;
+  background-color: #F7E9DC;
+  font-size: 20px;
 }
 
 
@@ -18,7 +20,7 @@ body{
 .title{
   text-align: center;
   margin: 25px;
-  color: bisque
+  color: #524C41;
 }
 
 .toggle{
